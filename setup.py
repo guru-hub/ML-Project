@@ -4,7 +4,7 @@ from typing import List
 HYPEN_E = '-e.'
 def get_requirements(file_path:str)->List[str]:
     '''
-    req
+    reading requirement
     '''
     requirments = []
     with open (file_path) as file_object
